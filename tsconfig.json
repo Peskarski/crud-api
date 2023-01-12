@@ -10,6 +10,7 @@
     },
     "include": [
         "./.eslintrc.cjs",
+        "./webpack.config.js",
         "./src/"
     ],
     "exclude": [
