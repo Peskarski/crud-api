@@ -3,15 +3,8 @@ import { Route } from './types';
 class Router {
   private routes: Route[] = [];
 
-  addRoute({
-    path, method, controller, action,
-  }: Route) {
-    this.routes.push({
-      path,
-      method,
-      controller,
-      action,
-    });
+  addRoute(route: Route) {
+    this.routes.push(route);
   }
 
   getRoutes() {

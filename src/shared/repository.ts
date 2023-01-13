@@ -1,4 +1,4 @@
-import provideUuid from './helpers/uuidProvider';
+import provideUuid from './helpers/uuid';
 
 class Repository<T extends { id?: string }> {
   entries: T[];

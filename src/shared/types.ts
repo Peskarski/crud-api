@@ -10,9 +10,9 @@ export type Request = { statusCode: StatusCodes; actionResult: object };
 export interface Route {
   method: Methods;
   path: string;
-  // controller: (request: Request, response: Response) => Promise<Request>;
   controller: any;
   action: string;
+  requiredFields?: string[],
 }
 
 export type Action = {

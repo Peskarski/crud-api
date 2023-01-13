@@ -24,6 +24,7 @@ userRouter.addRoute({
   method: Methods.PUT,
   controller: UserController,
   action: UserActions.PUT,
+  requiredFields: ['username', 'age', 'hobbies'],
 });
 
 userRouter.addRoute({
@@ -31,6 +32,7 @@ userRouter.addRoute({
   method: Methods.POST,
   controller: UserController,
   action: UserActions.POST,
+  requiredFields: ['username', 'age', 'hobbies'],
 });
 
 userRouter.addRoute({
