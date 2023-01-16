@@ -3,7 +3,7 @@
 ## Install the application
 
 ```bash
-git clone git@github.com:maks-rafalko/nodejs-rss-crud-api.git
+git clone https://github.com/Peskarski/crud-api.git
 git checkout develop
 
 # install dependencies
